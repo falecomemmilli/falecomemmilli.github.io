@@ -1365,7 +1365,7 @@ h6 {
   background-position: center center;
   background-size: cover;
   position: relative;
-  padding-top: 120px; }
+  padding-top: 12px; }
   .site-footer:before {
     content: '';
     width: 100%;
