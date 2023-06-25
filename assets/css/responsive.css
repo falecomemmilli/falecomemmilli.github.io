@@ -27,13 +27,13 @@
     cursor: pointer; }
 
   .menu-toggler:hover {
-    border-color: #1f5ad2; }
+    border-color: #52004f; }
 
   .menu-toggler .icon-bar {
     background: #fff; }
 
   .menu-toggler:hover .icon-bar {
-    background: #1f5ad2; }
+    background: #52004f; }
 
   .navbar-expand-lg .navbar-collapse {
     padding-bottom: 0;
@@ -216,7 +216,7 @@
     width: 100%;
     display: none;
     text-align: left;
-    background: #18212E;
+    background: #52004f;
     max-height: 70vh;
     overflow-y: scroll; }
 
