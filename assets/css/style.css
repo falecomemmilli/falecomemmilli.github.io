@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Libre Baskerville"; }
+  font-family: "Montserrat"; }
 
 .page-wrapper {
   position: relative;
@@ -61,7 +61,7 @@ h6 {
   overflow: hidden; }
 
 .thm-base-bg {
-  background-color: #52004f; }
+  background-color: #ffedeb; }
 
 .thm-base-bg-2 {
   background-color: #DAA520; }
@@ -146,7 +146,7 @@ h6 {
   border-top: 1px solid #eef1f6; }
 
 .bootstrap-select .dropdown-menu > li.selected > a {
-  background: #52004f;
+  background: #ffedeb;
   color: #dedede; }
 
 .bootstrap-select .dropdown-menu > li > a {
@@ -157,7 +157,7 @@ h6 {
   transition: all .4s ease; }
 
 .bootstrap-select .dropdown-menu > li > a:hover {
-  background: #52004f;
+  background: #ffedeb;
   color: #dedede;
   cursor: pointer; }
 
@@ -175,7 +175,7 @@ h6 {
     color: #52004f;
     transition: all .4s ease; }
     .post-pagination a:hover, .post-pagination a.active {
-      background-color: #52004f;
+      background-color: #ffedeb;
       color: #dedede; }
     .post-pagination a + a {
       margin-left: 15px; }
@@ -204,7 +204,7 @@ h6 {
   display: inline-block;
   width: 45px;
   height: 45px;
-  background: #52004f;
+  background: #ffedeb;
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -219,7 +219,7 @@ h6 {
     font-size: 18px;
     line-height: 45px; }
   .scroll-to-top:hover {
-    background-color: #52004f; }
+    background-color: #ffedeb; }
     .scroll-to-top:hover i {
       color: #dedede; }
 
@@ -324,7 +324,7 @@ h6 {
       padding: 0px 0px;
       text-align: left;
       list-style: none;
-      background-color: #52004f;
+      background-color: #ffedeb;
       background-clip: padding-box;
       opacity: 0;
       border-radius: 0px;
@@ -377,7 +377,7 @@ h6 {
         padding: 0px 0px;
         text-align: left;
         list-style: none;
-        background-color: #52004f;
+        background-color: #ffedeb;
         background-clip: padding-box;
         opacity: 0;
         border-radius: 0px;
@@ -589,7 +589,7 @@ h6 {
       transition: all .4s ease; }
       .topbar-two__social a:hover {
         color: #dedede;
-        background-color: #52004f;
+        background-color: #ffedeb;
         border-color: #52004f; }
       .topbar-two__social a + a {
         margin-left: 10px; }
@@ -730,7 +730,7 @@ h6 {
   right: 5%; }
 
 .static-banner-one {
-  background-color: #52004f;
+  background-color: #ffedeb;
   background-position: bottom right;
   background-repeat: no-repeat;
   padding-top: 197px;
@@ -759,7 +759,7 @@ h6 {
     position: relative; }
   .static-banner-one__title {
     margin: 0;
-    color: #fff;
+    color: #5d3424;
     font-size: 80px;
     line-height: 90px;
     letter-spacing: -.02em;
@@ -875,7 +875,7 @@ h6 {
       box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.03); }
   .blog-one__image {
     position: relative;
-    background-color: #52004f; }
+    background-color: #ffedeb; }
     .blog-one__image > img {
       width: 100%;
       transition: all .4s ease; }
@@ -1013,7 +1013,7 @@ h6 {
       color: #52004f;
       font-size: 20px;
       font-weight: 700;
-      font-family: "Libre Baskerville";
+      font-family: "Montserrat";
       display: flex;
       align-items: center; }
       .blog-details .share-block .left-block p a {
@@ -1252,7 +1252,7 @@ h6 {
   line-height: 26px;
   font-weight: 700;
   color: #52004f;
-  font-family: "Libre Baskerville"; }
+  font-family: "Montserrat"; }
   .sidebar__post-title a {
     color: inherit;
     transition: all .4s ease; }
@@ -1359,8 +1359,7 @@ h6 {
 * 6, footer styles
 */
 .site-footer {
-  background-color: #52004f;
-  background-image: url(../images/background/footer-bg.jpg);
+  background-color: #fcdbd6;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1537,7 +1536,7 @@ h6 {
     line-height: 1em;
     font-size: 60px;
     font-weight: 700;
-    color: #fff;
+    color: #5d3424;
     margin: 0;
     margin-bottom: 15px; }
 
@@ -1633,7 +1632,7 @@ h6 {
         top: 50%;
         transform: translateY(-50%); }
         @media (max-width: 1199px) {
-          .contact-info-one .inner-container [class*=col-xl-]:nth-child(2):before, .contact-info-one .inner-container [class*=col-xl-]:nth-child(2):after {
+          .contact-info-one .inner-container [class*=col-xl-]:nth-child(1):before, .contact-info-one .inner-container [class*=col-xl-]:nth-child(1):after {
             width: 100%;
             height: 5px;
             border-left: 0;
@@ -1643,12 +1642,12 @@ h6 {
             transform: translateY(0);
             border-top: 1px solid rgba(255, 255, 255, 0.2);
             border-bottom: 1px solid rgba(255, 255, 255, 0.2); } }
-      .contact-info-one .inner-container [class*=col-xl-]:nth-child(2):before {
+      .contact-info-one .inner-container [class*=col-xl-]:nth-child(1):before {
         left: 0; }
-      .contact-info-one .inner-container [class*=col-xl-]:nth-child(2):after {
+      .contact-info-one .inner-container [class*=col-xl-]:nth-child(1):after {
         right: 0; }
         @media (max-width: 1199px) {
-          .contact-info-one .inner-container [class*=col-xl-]:nth-child(2):after {
+          .contact-info-one .inner-container [class*=col-xl-]:nth-child(1):after {
             top: auto;
             right: auto;
             bottom: 0; } }
@@ -1699,7 +1698,7 @@ h6 {
     font-size: 20px; }
     .contact-form-one__btn:hover {
       color: #dedede;
-      background-color: #52004f; }
+      background-color: #ffedeb; }
   .contact-form-one .row.low-gutters {
     margin-left: -5px;
     margin-right: -5px; }
@@ -1813,7 +1812,7 @@ h6 {
     outline: none;
     background-color: transparent;
     font-size: 50px;
-    font-family: "Libre Baskerville";
+    font-family: "Montserrat";
     color: #dedede;
     padding-left: 170px;
     height: 135px; }
@@ -1951,7 +1950,7 @@ h6 {
 */
 .cta-one {
   position: relative;
-  background-color: #52004f;
+  background-color: #ffedeb;
   padding: 118.5px 0px; }
   @media (max-width: 991px) {
     .cta-one {
@@ -2002,7 +2001,7 @@ h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #52004f;
+    background-color: #ffedeb;
     opacity: .8; }
   .cta-two .container {
     text-align: center;
@@ -2050,7 +2049,7 @@ h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #52004f;
+    background-color: #ffedeb;
     opacity: .8; }
   .cta-three .container {
     position: relative; }
@@ -2130,7 +2129,7 @@ h6 {
       opacity: .7;
       transform: scale(1.05); }
   .event-one__image-inner {
-    background-color: #52004f;
+    background-color: #ffedeb;
     overflow: hidden; }
     .event-one__image-inner > img {
       opacity: 1;
@@ -2419,7 +2418,7 @@ h6 {
     .countdown-one__list li i {
       font-style: normal;
       color: #fff;
-      font-family: "Libre Baskerville";
+      font-family: "Montserrat";
       font-size: 26px;
       line-height: 1em; }
     .countdown-one__list li span {
@@ -2434,7 +2433,7 @@ h6 {
   padding: 0; }
   .countdown-one__home-one .inner-container {
     padding: 40px 50px;
-    background-color: #52004f; }
+    background-color: #ffedeb; }
   .countdown-one__home-one .countdown-one__title {
     font-size: 30px;
     line-height: 1em; }
@@ -2484,7 +2483,7 @@ h6 {
       content: '';
       width: 200%;
       height: 100%;
-      background-color: #52004f;
+      background-color: #ffedeb;
       position: absolute;
       right: 50%;
       top: 0;
@@ -2597,7 +2596,7 @@ h6 {
     left: calc(100% + 10px);
     width: 20px;
     height: 100%;
-    background-color: #52004f; }
+    background-color: #ffedeb; }
   .about-five__image-sign {
     position: absolute;
     bottom: 20px;
@@ -2647,7 +2646,7 @@ h6 {
     padding-top: 30px; }
   .team-one__image {
     overflow: hidden;
-    background-color: #52004f; }
+    background-color: #ffedeb; }
     .team-one__image > img {
       width: 100%;
       opacity: 1;
@@ -2714,7 +2713,7 @@ h6 {
     color: #52004f;
     font-size: 30px;
     line-height: 56px;
-    font-family: "Libre Baskerville"; }
+    font-family: "Montserrat"; }
     @media (max-width: 480px) {
       .testimonials-one__text {
         font-size: 25px;
@@ -2759,7 +2758,7 @@ h6 {
     height: 11px;
     border-radius: 0px;
     opacity: .3;
-    background-color: #52004f;
+    background-color: #ffedeb;
     margin: 0 5px;
     transition: all .4s ease; }
   .testimonials-one .owl-theme .owl-dots .owl-dot.active span {
@@ -2812,7 +2811,7 @@ h6 {
     top: calc(100% + 20px);
     right: 10%;
     font-size: 16px;
-    font-family: "Libre Baskerville";
+    font-family: "Montserrat";
     font-weight: bold;
     color: #fff;
     display: flex;
@@ -2827,7 +2826,7 @@ h6 {
     position: relative;
     overflow: hidden; }
   .testimonials-two__bottom .swiper-slide {
-    background-color: #52004f; }
+    background-color: #ffedeb; }
     .testimonials-two__bottom .swiper-slide img {
       transition: all .4s ease;
       cursor: pointer; }
@@ -3186,7 +3185,7 @@ h6 {
     align-items: center;
     flex-direction: column;
     padding-bottom: 50px;
-    background-image: linear-gradient(0deg, #52004f 0%, rgba(4, 16, 42, 0) 100%);
+    background-image: linear-gradient(0deg, #ffedeb 0%, rgba(4, 16, 42, 0) 100%);
     opacity: 1;
     transform: perspective(500px) translateZ(0px);
     transition: transform .4s ease, opacity .4s ease; }
@@ -3261,7 +3260,7 @@ h6 {
     padding: 0;
     border-radius: 0;
     transition: all .4s ease;
-    background-color: #52004f; }
+    background-color: #ffedeb; }
     .video-one .owl-theme .owl-nav [class*="owl-"] i {
       color: #dedede;
       transition: all .4s ease; }
